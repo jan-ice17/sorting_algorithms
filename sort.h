@@ -23,4 +23,6 @@ typedef struct listint_s
 void print_array(const int *array, size_t size); /*Prints an array of integers*/
 void print_list(const listint_t *list);  /*Prints a list of integers*/
 void bubble_sort(int *array, size_t size); /*Sorts an array of integers in ascending order*/
+void insertion_sort_list(listint_t **list);
+int len_list(listint_t *h);
 #endif /*SORT_H*/
