@@ -26,4 +26,7 @@ void bubble_sort(int *array, size_t size); /*Sorts an array of integers in ascen
 void insertion_sort_list(listint_t **list); /*Sorts a linked list*/
 int len_list(listint_t *h); /*Returns the length of a linked list*/
 void selection_sort(int *array, size_t size); /*Sorts an array following the selection sort algorithm*/
+void quick_recursion(int *array, int left, int right, size_t size); /*Recursive function for Quicksort*/
+void quick_sort(int *array, size_t size); /*Sorts an array of integers in ascending order using the Quick sort algorithm*/
+int partition(int *array, int left, int right, size_t size); /*Partitions the array for Quicksort*/
 #endif /*SORT_H*/
