@@ -29,4 +29,5 @@ void selection_sort(int *array, size_t size); /*Sorts an array following the sel
 void quick_recursion(int *array, int left, int right, size_t size); /*Recursive function for Quicksort*/
 void quick_sort(int *array, size_t size); /*Sorts an array of integers in ascending order using the Quick sort algorithm*/
 int partition(int *array, int left, int right, size_t size); /*Partitions the array for Quicksort*/
+void shell_sort(int *array, size_t size) 
 #endif /*SORT_H*/
